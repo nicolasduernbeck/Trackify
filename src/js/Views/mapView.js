@@ -17,7 +17,6 @@ class MapView extends View {
   renderMarker(coords) {
     if (!this._marker) {
       this._marker = L.marker([coords.lat, coords.lng]).addTo(this._parentEl);
-      return;
     } else {
       this._marker.setLatLng([coords.lat, coords.lng]);
     }
