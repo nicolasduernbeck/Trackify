@@ -1,0 +1,18 @@
+{
+  "name": "trackify",
+  "version": "1.0.0",
+  "description": "A simple IP-Tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "NicolasWebDeveloper",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0"
+  }
+}

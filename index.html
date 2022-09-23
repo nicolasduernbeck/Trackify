@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trackify - IP Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js" integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
+    <script src="./src/js/controller.js" type="module" defer></script>
+    <link rel="stylesheet" href="./src/sass/main.scss" />
+  </head>
+  <body>
+    <img src="./src/images/location.png" alt="" class="bg-image" />
+    <div class="layer">
+      <h1 class="heading">Trackify</h1>
+      <img class="location-icon" src="./src/images/location.png" alt="" />
+      <input type="text" class="search" placeholder="Enter IP ...." />
+      <div class="map-container">
+        <div id="map"></div>
+      </div>
+    </div>
+  </body>
+</html>
