@@ -1,7 +1,6 @@
 .map-container {
   width: 70vw;
   height: 30rem;
-  background-color: black;
   border-radius: 4rem;
   margin-bottom: 2rem;
   overflow: hidden;
@@ -10,4 +9,8 @@
 #map {
   width: 70vw;
   height: 30rem;
+}
+
+#map-hidden {
+  visibility: hidden;
 }

@@ -1,5 +1,6 @@
 class View {
   _parentEl;
+
   constructor() {}
 }
 

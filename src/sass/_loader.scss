@@ -1,0 +1,17 @@
+.loader {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 10px solid;
+  border-color: rgb(232, 232, 232) rgb(232, 232, 232) transparent transparent;
+  animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}

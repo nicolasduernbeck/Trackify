@@ -42,3 +42,19 @@ body {
   user-select: none;
   width: 4rem;
 }
+
+.messageLayer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #343835c2;
+}
+
+.hidden {
+  visibility: hidden;
+}
